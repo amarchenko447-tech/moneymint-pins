@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>MoneyMint pin refill</title></head>
+<body><h3>MoneyMint pin refill</h3><p>Used by the scheduled task. In the console: <code>await refill(queuedCount, queuedTitles)</code> → CSV text.</p>
+<script>
+const BASE = "https://amarchenko447-tech.github.io/moneymint-pins/";
+const LIMIT = 100, MARGIN = 2, HORIZON = 14, PER_DAY_MAX = 2;
+const SLOTS = ["12:15","13:45","15:15","16:45","18:15","19:45","21:15","22:45","00:15","01:45"]; // UTC
+const SUF = [""," – save this idea"," | instant download"," (printable & easy)"," – pin it for later"," | Etsy digital download",
+  " – simple & stress-free"," – print at home"," | quick setup"," – save for later"," – easy to use"," | download today",
+  " – try it this week"," | 2027 edition"," – beginner friendly"," – party ready"," | print & play"," – fun for everyone"];
+const csvq = v => /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+const pad = n => String(n).padStart(2, '0');
+
+async function refill(queuedCount, queuedTitles = [], todayISO = null) {
+  const P = await (await fetch('products.json', {cache: 'no-store'})).json(); if (P._x) delete P._x;
+  const hist = new Set(JSON.parse(localStorage.getItem('mm_hist') || '[]'));
+  try { (await (await fetch('hist.json', {cache: 'no-store'})).json()).forEach(t => hist.add(t)); } catch (e) {}
+  queuedTitles.forEach(t => hist.add(t));
+  const today = todayISO ? new Date(todayISO + 'T00:00:00Z') : new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00Z');
+  const count = {}; for (const k in P) count[k] = 0;
+  for (const l of queuedTitles) for (const k in P) if (P[k].titles.some(t => l.startsWith(t.slice(0, 40)))) { count[k]++; break; }
+  let active = Object.keys(P).filter(k => !P[k].until || new Date(P[k].until + 'T00:00:00Z') > new Date(today.getTime() + 2 * 864e5));
+  const free = LIMIT - queuedCount - MARGIN;
+  if (free <= 0) return '';
+  const used = {}; for (const k in P) used[k] = 0;
+  const nextTitle = k => { for (const s of SUF) for (const t of P[k].titles) { const c = (t + s).slice(0, 100); if (!hist.has(c)) { hist.add(c); return c; } } return null; };
+  const rows = [], dayUse = {}; let dI = 1, sI = 0;
+  while (rows.length < free && active.length) {
+    active.sort((a, b) => (count[a] + used[a]) - (count[b] + used[b]) || a.localeCompare(b));
+    const k = active[0], title = nextTitle(k);
+    if (!title) { active.shift(); continue; }
+    let d;
+    for (let g = 0; g < HORIZON * SLOTS.length; g++) { d = new Date(today.getTime() + dI * 864e5); if ((dayUse[k + d.toISOString().slice(0, 10)] || 0) < PER_DAY_MAX) break; dI = dI % HORIZON + 1; }
+    const slot = SLOTS[sI % SLOTS.length]; let dt = new Date(d.toISOString().slice(0, 10) + 'T' + slot + ':00Z');
+    if (slot < '06:00') dt = new Date(dt.getTime() + 864e5);
+    const key = k + d.toISOString().slice(0, 10); dayUse[key] = (dayUse[key] || 0) + 1;
+    const p = P[k], n = count[k] + used[k], f = p.files[n % p.files.length];
+    const ts = dt.getUTCFullYear() + '-' + pad(dt.getUTCMonth() + 1) + '-' + pad(dt.getUTCDate()) + 'T' + pad(dt.getUTCHours()) + ':' + pad(dt.getUTCMinutes()) + ':00';
+    rows.push([title, BASE + f, p.board, f.endsWith('.mp4') ? '2' : '', p.desc[n % p.desc.length], p.link, ts, p.kw]);
+    used[k]++; sI++; if (sI % SLOTS.length === 0) dI = dI % HORIZON + 1;
+  }
+  rows.sort((a, b) => a[6].localeCompare(b[6]));
+  localStorage.setItem('mm_hist', JSON.stringify([...hist]));
+  return ['Title,Media URL,Pinterest board,Thumbnail,Description,Link,Publish date,Keywords', ...rows.map(r => r.map(csvq).join(','))].join('\n') + '\n';
+}
+</script></body></html>

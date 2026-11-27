@@ -1,0 +1,840 @@
+{
+ "budget": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623091379",
+  "files": [
+   "budget-video.mp4",
+   "budget-collage.jpg",
+   "budget-tips.jpg"
+  ],
+  "titles": [
+   "Monthly budget planner for Google Sheets – it does the math for you",
+   "Save this: the easiest monthly budget spreadsheet for beginners",
+   "Stop guessing where your money goes – simple Google Sheets budget",
+   "This is your sign to start a budget in 2027 (template inside)",
+   "5 budgeting rules that actually work + monthly budget planner",
+   "Budget planner spreadsheet with charts – income, bills & savings"
+  ],
+  "desc": [
+   "A simple monthly budget spreadsheet for Google Sheets: track income, expenses and savings, and see where your money goes with automatic charts. 12 monthly tabs plus a yearly summary.",
+   "Beginner-friendly budget template that calculates everything for you. Plan your month, compare planned vs actual and build better money habits in minutes a week."
+  ],
+  "kw": "budget template, monthly budget, budget spreadsheet, google sheets budget, budget planner, personal finance",
+  "until": null
+ },
+ "debt": {
+  "board": "Debt Payoff Tips",
+  "link": "https://www.etsy.com/listing/4623127920",
+  "files": [
+   "debt-video.mp4",
+   "debt-collage.jpg",
+   "debt-tips.jpg"
+  ],
+  "titles": [
+   "When will I be debt-free? Debt payoff tracker for Google Sheets",
+   "Debt snowball vs avalanche – see your payoff date in seconds",
+   "Save this: debt payoff spreadsheet that shows your debt-free date",
+   "Pay off debt faster – free tips + debt snowball tracker",
+   "POV: you finally know your debt-free date (Google Sheets tracker)"
+  ],
+  "desc": [
+   "Debt payoff tracker for Google Sheets with snowball and avalanche methods. Add your debts and see your debt-free date, monthly plan and progress chart.",
+   "Stay motivated on your debt-free journey: this spreadsheet builds your payoff plan, tracks every payment and shows how much interest you save."
+  ],
+  "kw": "debt payoff, debt snowball, debt tracker, debt free, avalanche method, google sheets",
+  "until": null
+ },
+ "sav": {
+  "board": "Money Saving Ideas",
+  "link": "https://www.etsy.com/listing/4623136853",
+  "files": [
+   "sav-video.mp4",
+   "sav-collage.jpg",
+   "sav-tips.jpg"
+  ],
+  "titles": [
+   "Savings goals tracker – watch every goal fill up (Google Sheets)",
+   "Save this: savings tracker spreadsheet for every money goal",
+   "How to save for multiple goals at once + savings tracker",
+   "This is your sign to start saving for that trip, car or emergency fund"
+  ],
+  "desc": [
+   "Track every savings goal in one Google Sheets template: emergency fund, vacation, car and more. Progress bars update automatically as you add deposits.",
+   "A simple savings goals spreadsheet that keeps you motivated. Set targets, log deposits and see how close you are to each goal."
+  ],
+  "kw": "savings tracker, savings goals, emergency fund, money saving, google sheets, savings plan",
+  "until": null
+ },
+ "pay": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623144493",
+  "files": [
+   "pay-video.mp4",
+   "pay-collage.jpg",
+   "pay-tips.jpg"
+  ],
+  "titles": [
+   "Paycheck budget planner – know what each paycheck covers",
+   "Biweekly budget spreadsheet: plan every paycheck in minutes",
+   "Paycheck to paycheck? Try budgeting by paycheck (template)",
+   "Save this: paycheck budget template for Google Sheets"
+  ],
+  "desc": [
+   "Budget by paycheck with this Google Sheets template: assign bills to each payday, see what's left and stop running short before the next check.",
+   "Weekly or biweekly pay? This paycheck budget planner shows exactly which bills each paycheck covers and how much is left to save or spend."
+  ],
+  "kw": "paycheck budget, biweekly budget, budget by paycheck, bill planner, google sheets budget",
+  "until": null
+ },
+ "bill": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623163632",
+  "files": [
+   "bill-video.mp4",
+   "bill-collage.jpg",
+   "bill-tips.jpg"
+  ],
+  "titles": [
+   "Never miss a bill again – simple bill tracker for Google Sheets",
+   "Bill tracker spreadsheet: paid, due soon, overdue at a glance",
+   "5 ways to stop missing bills + free tips and bill tracker",
+   "Save this: monthly bill payment checklist (Google Sheets)"
+  ],
+  "desc": [
+   "Monthly bill tracker for Google Sheets: list your bills once and see what's paid, due soon or overdue. Perfect for avoiding late fees.",
+   "Keep every due date in one place. This bill organizer spreadsheet shows your monthly totals and highlights what still needs paying."
+  ],
+  "kw": "bill tracker, bill organizer, monthly bills, bill payment checklist, google sheets",
+  "until": null
+ },
+ "bundle": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623154249",
+  "files": [
+   "bundle-video.mp4",
+   "bundle-collage.jpg",
+   "bundle-tips.jpg"
+  ],
+  "titles": [
+   "Money starter kit – 5 Google Sheets budget templates in 1",
+   "Budget, debt, savings, paycheck & bills: the complete money bundle",
+   "Save this: everything you need to get your money organized",
+   "New year money reset – 5 budget spreadsheets bundle"
+  ],
+  "desc": [
+   "Five budget templates in one bundle: monthly budget, debt payoff, savings goals, paycheck budget and bill tracker. All for Google Sheets, all automatic.",
+   "Get your whole money life organized with one bundle of Google Sheets templates. Budget, pay off debt, save and never miss a bill."
+  ],
+  "kw": "budget bundle, budget templates, money planner, google sheets bundle, personal finance",
+  "until": null
+ },
+ "xmas": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623179378",
+  "files": [
+   "xmas-video.mp4",
+   "xmas-collage.jpg",
+   "xmas-tips.jpg"
+  ],
+  "titles": [
+   "Christmas gift budget – every gift, on budget (Google Sheets)",
+   "Holiday gift list tracker so you don't overspend this Christmas",
+   "Save this: Christmas budget spreadsheet for gifts & spending",
+   "Stop overspending at Christmas – gift budget planner"
+  ],
+  "desc": [
+   "Plan Christmas gifts for everyone without overspending: gift list by person, budget vs spent and a simple status for each gift. Google Sheets template.",
+   "A holiday gift budget spreadsheet that keeps your Christmas spending on track. Add people, set budgets and tick gifts off as you buy them."
+  ],
+  "kw": "christmas budget, gift list, holiday budget, christmas gift tracker, google sheets",
+  "until": "2026-12-20"
+ },
+ "y27": {
+  "board": "Budget Templates",
+  "link": "https://www.etsy.com/listing/4623215742",
+  "files": [
+   "y27-video.mp4",
+   "y27-collage.jpg",
+   "y27-tips.jpg"
+  ],
+  "titles": [
+   "2027 budget planner – your whole money year on one dashboard",
+   "5 money goals for 2027 + annual budget spreadsheet",
+   "Save this: 2027 budget spreadsheet for Google Sheets",
+   "New year, new budget: 2027 yearly budget planner"
+  ],
+  "desc": [
+   "Plan your 2027 finances in one Google Sheets template: 12 monthly budgets plus a yearly dashboard with income, expenses and savings charts.",
+   "Start 2027 with a clear money plan. This annual budget spreadsheet tracks every month and shows your full year at a glance."
+  ],
+  "kw": "2027 budget, yearly budget, annual budget planner, new year budget, google sheets",
+  "until": null
+ },
+ "ns": {
+  "board": "Money Saving Ideas",
+  "link": "https://www.etsy.com/listing/4623221928",
+  "files": [
+   "ns-video.mp4",
+   "ns-collage.jpg",
+   "ns-tips.jpg"
+  ],
+  "titles": [
+   "30-day no-spend challenge tracker – save money fast",
+   "No-spend January? Try this 30-day challenge tracker",
+   "Save this: no spend challenge rules + printable-style tracker",
+   "This is your sign to try a no-spend month in 2027"
+  ],
+  "desc": [
+   "A 30-day no-spend challenge tracker for Google Sheets: tick off each no-spend day and watch your money saved counter grow.",
+   "Reset your spending habits with a no-spend challenge. Track your days, see how much you saved and stay motivated all month."
+  ],
+  "kw": "no spend challenge, money challenge, save money, frugal living, no spend january",
+  "until": null
+ },
+ "sf": {
+  "board": "Money Saving Ideas",
+  "link": "https://www.etsy.com/listing/4623289576",
+  "files": [
+   "sf-video.mp4",
+   "sf-collage.jpg",
+   "sf-tips.jpg"
+  ],
+  "titles": [
+   "Sinking funds tracker – stop being surprised by big bills",
+   "Sinking funds you need in 2027 + Google Sheets tracker",
+   "Save this: sinking funds spreadsheet for car, gifts & travel",
+   "How sinking funds make big expenses stress-free"
+  ],
+  "desc": [
+   "Save ahead for big expenses with this sinking funds tracker: car repairs, holidays, gifts and more, with monthly targets and progress for each fund.",
+   "Sinking funds spreadsheet for Google Sheets. Split your savings into goals, see how much to set aside each month and never get caught off guard."
+  ],
+  "kw": "sinking funds, savings tracker, sinking fund categories, budget, google sheets",
+  "until": null
+ },
+ "sc": {
+  "board": "Money Saving Ideas",
+  "link": "https://www.etsy.com/listing/4623301467",
+  "files": [
+   "sc-video.mp4",
+   "sc-collage.jpg",
+   "sc-tips.jpg"
+  ],
+  "titles": [
+   "2027 savings challenge – 52-week + 100 envelope in one sheet",
+   "100 envelope challenge tracker for Google Sheets",
+   "Save this: 52-week money challenge for 2027",
+   "How much can you save in 2027? Try the 100 envelope challenge"
+  ],
+  "desc": [
+   "Two savings challenges in one Google Sheets file: the 52-week challenge and the 100 envelope challenge, with automatic progress tracking.",
+   "Make saving fun in 2027. Tick off weeks or envelopes and watch your total grow with this savings challenge spreadsheet."
+  ],
+  "kw": "savings challenge, 100 envelope challenge, 52 week challenge, 2027, money challenge",
+  "until": null
+ },
+ "wed": {
+  "board": "Wedding Planning",
+  "link": "https://www.etsy.com/listing/4623260419",
+  "files": [
+   "wed-video.mp4",
+   "wed-collage.jpg",
+   "wed-tips.jpg"
+  ],
+  "titles": [
+   "Wedding budget spreadsheet – budget, guests & checklist in one",
+   "Just engaged? Save this wedding planner for Google Sheets",
+   "Wedding budget breakdown + guest list RSVP tracker",
+   "Plan your wedding without overspending (template)"
+  ],
+  "desc": [
+   "Plan your wedding in one Google Sheets template: budget by category, vendor payments, guest list with RSVPs and a countdown to the big day.",
+   "Wedding budget and planner spreadsheet for newly engaged couples. Keep costs, guests and to-dos organized in one place."
+  ],
+  "kw": "wedding budget, wedding planner, guest list, rsvp tracker, wedding spreadsheet",
+  "until": null
+ },
+ "read": {
+  "board": "Reading Tracker & Book Lists",
+  "link": "https://www.etsy.com/listing/4623268839",
+  "files": [
+   "read-video.mp4",
+   "read-collage.jpg",
+   "read-tips.jpg"
+  ],
+  "titles": [
+   "Reading tracker 2027 – hit your reading goal (Google Sheets)",
+   "Reading challenge ideas for 2027 + book tracker spreadsheet",
+   "Save this: book log with ratings, pages and TBR list",
+   "Bookworm approved: 2027 reading journal spreadsheet"
+  ],
+  "desc": [
+   "Track every book you read in 2027: reading goal dashboard, book log with star ratings, pages read and a TBR list. Google Sheets template.",
+   "A digital reading journal for book lovers. Set your 2027 goal, log books and watch your stats update automatically."
+  ],
+  "kw": "reading tracker, book tracker, reading journal, reading challenge 2027, bookish",
+  "until": null
+ },
+ "xg": {
+  "board": "Christmas Party Games",
+  "link": "https://www.etsy.com/listing/4623360529",
+  "files": [
+   "xg-video-a.mp4",
+   "xg-collage-a.jpg",
+   "xg-tips-a.jpg",
+   "xg-video-b.mp4",
+   "xg-collage-b.jpg",
+   "xg-tips-b.jpg",
+   "xg-collage-c.jpg"
+  ],
+  "titles": [
+   "15 Christmas party games printable – fun for the whole family",
+   "Christmas bingo printable – 30 unique cards for big groups",
+   "Save this: Christmas games for family, office & Zoom parties",
+   "Last-minute Christmas party games – download, print, play",
+   "The perfect Christmas party game plan (hosting tips)",
+   "Christmas trivia, who's most likely to & more – printable"
+  ],
+  "desc": [
+   "15 printable Christmas party games plus 30 bingo cards and answer keys. Great for family gatherings, office parties and Zoom calls.",
+   "Make your Christmas party unforgettable with ready-to-print games: bingo, trivia, who's most likely to and more. Instant download, Letter and A4."
+  ],
+  "kw": "christmas party games, christmas bingo, family christmas games, office party games, printable games",
+  "until": "2026-12-23"
+ },
+ "cal": {
+  "board": "2027 Goals & Planning",
+  "link": "https://www.etsy.com/listing/4623380710",
+  "files": [
+   "cal-a.jpg",
+   "cal-b.jpg",
+   "cal-c.jpg"
+  ],
+  "titles": [
+   "2027 printable calendar with US holidays – Sunday or Monday start",
+   "Aesthetic 2027 monthly calendar in 2 styles (printable)",
+   "Save this: 2027 calendar printable, Letter & A4"
+  ],
+  "desc": [
+   "A clean 2027 printable calendar with US holidays, in two styles and with Sunday or Monday start. Includes year at a glance and notes space.",
+   "Plan 2027 on paper: minimalist monthly calendar pages with US holidays. Print at home in Letter or A4."
+  ],
+  "kw": "2027 calendar, printable calendar, monthly calendar, wall calendar, 2027 planner",
+  "until": null
+ },
+ "vb": {
+  "board": "2027 Goals & Planning",
+  "link": "https://www.etsy.com/listing/4623383558",
+  "files": [
+   "vb-a.mp4",
+   "vb-b.jpg",
+   "vb-c.jpg",
+   "vb-d.jpg"
+  ],
+  "titles": [
+   "2027 vision board kit – 100+ printable words & images",
+   "How to make a vision board for 2027 (printable kit)",
+   "Vision board party idea for New Year's – save this",
+   "Manifest your 2027: goal setting worksheets + vision board kit"
+  ],
+  "desc": [
+   "Create your 2027 vision board with 100+ printable words, affirmations and goal-setting worksheets. Perfect for a New Year vision board night.",
+   "Set intentions for 2027: wheel of life, goal worksheets and printable vision board pieces in one kit. Print, cut and create."
+  ],
+  "kw": "vision board, 2027 goals, vision board kit, goal setting, manifestation, new year",
+  "until": null
+ },
+ "mp": {
+  "board": "Meal Planning Ideas",
+  "link": "https://www.etsy.com/listing/4623397265",
+  "files": [
+   "mp-video-a.mp4",
+   "mp-collage-a.jpg",
+   "mp-video-b.mp4",
+   "mp-tips-a.jpg",
+   "mp-video-c.mp4",
+   "mp-collage-b.jpg",
+   "mp-video-d.mp4"
+  ],
+  "titles": [
+   "Sunday reset: plan 7 days of meals in 10 minutes",
+   "Meal planner + automatic grocery list (Google Sheets)",
+   "Stop writing grocery lists by hand – this sheet does it for you",
+   "Know your grocery cost before you shop – food budget template",
+   "7 ways to cut your grocery bill + meal planning spreadsheet",
+   "Save this: weekly meal plan & grocery budget template"
+  ],
+  "desc": [
+   "Plan your weekly meals in Google Sheets and get an automatic grocery list with costs. Includes a recipe box and a food budget tracker.",
+   "Meal planning made easy: pick meals for the week, and the grocery list and food budget fill in by themselves."
+  ],
+  "kw": "meal planner, grocery list, meal prep, food budget, weekly meal plan, google sheets",
+  "until": null
+ },
+ "ny": {
+  "board": "New Year's Eve Party Ideas",
+  "link": "https://www.etsy.com/listing/4623400719",
+  "files": [
+   "ny-video-a.mp4",
+   "ny-collage-a.jpg",
+   "ny-tips-a.jpg",
+   "ny-video-b.mp4",
+   "ny-collage-b.jpg",
+   "ny-tips-b.jpg",
+   "ny-video-c.mp4",
+   "ny-video-d.mp4"
+  ],
+  "titles": [
+   "Stop doing boring NYE parties – play these 15 games instead",
+   "Kids New Year's Eve countdown – hour bags + games",
+   "10 New Year's Eve games everyone loves (save for Dec 31!)",
+   "NYE bingo printable – 30 unique cards for family parties",
+   "New Year's Eve party games printable – instant download",
+   "The perfect NYE game plan for families (hosting tips)"
+  ],
+  "desc": [
+   "15 printable New Year's Eve party games, 30 bingo cards and kids countdown hour tags. Fun for adults and kids, print at home.",
+   "Ring in 2027 with games for the whole family: NYE bingo, trivia, resolutions and a kids countdown to midnight. Letter and A4."
+  ],
+  "kw": "new years eve games, nye party, new years eve kids, nye bingo, printable party games",
+  "until": "2026-12-31"
+ },
+ "adhd": {
+  "board": "ADHD Planner & Productivity",
+  "link": "https://www.etsy.com/listing/4623613402",
+  "files": [
+   "adhd-video-a.mp4",
+   "adhd-collage.jpg",
+   "adhd-video-b.mp4",
+   "adhd-tips.jpg",
+   "adhd-video-c.mp4"
+  ],
+  "titles": [
+   "POV: your planner finally works with your ADHD brain",
+   "Make a dopamine menu with me – ADHD planner printable",
+   "Stop planning like neurotypical people – try now, next, later",
+   "7 planning hacks for ADHD brains (save this)",
+   "ADHD planner 2027 – dated + undated, 100+ printable pages",
+   "Brain dump, dopamine menu, habit tracker: ADHD-friendly planner"
+  ],
+  "desc": [
+   "An ADHD-friendly printable planner: brain dumps, dopamine menu, now/next/later, focus pages and gentle habit trackers, plus 2027 monthly and weekly pages.",
+   "Planning that works with your brain, not against it. 108 printable pages in color or low-ink, Letter and A4. No guilt, no catching up."
+  ],
+  "kw": "adhd planner, adhd tips, dopamine menu, brain dump, adhd organization, printable planner",
+  "until": null
+ },
+ "bs": {
+  "board": "Baby Shower Ideas",
+  "link": "https://www.etsy.com/listing/4623614490",
+  "files": [
+   "bs-video-a.mp4",
+   "bs-collage.jpg",
+   "bs-video-b.mp4",
+   "bs-tips.jpg"
+  ],
+  "titles": [
+   "Baby shower games in 5 minutes? Download, print & play",
+   "16 baby shower games guests actually love – gender neutral",
+   "POV: you're hosting the baby shower and the games are done",
+   "Save this: 10 baby shower games + diaper raffle printable",
+   "Baby in Bloom shower games – wildflower printable bundle"
+  ],
+  "desc": [
+   "16 gender-neutral printable baby shower games: baby bingo with 20 cards, price is right, diaper raffle, predictions, trivia and more, with answer keys.",
+   "Host a sweet Baby in Bloom shower with ready-to-print games and signs. Instant download, Letter and A4, works for boys or girls."
+  ],
+  "kw": "baby shower games, baby shower bingo, gender neutral baby shower, diaper raffle, baby in bloom",
+  "until": null
+ },
+ "val": {
+  "board": "Valentine's Day Party Ideas",
+  "link": "https://www.etsy.com/listing/4626726453",
+  "files": [
+   "val-video-a.mp4",
+   "val-collage.jpg",
+   "val-video-b.mp4",
+   "val-tips.jpg"
+  ],
+  "titles": [
+   "Valentine's Day party games for adults – download, print & play",
+   "13 printable Valentine's games: bingo, trivia, would you rather",
+   "Easy Valentine's party idea: printable game bundle for couples & friends",
+   "Valentine's Day bingo + love trivia – instant download games",
+   "Classroom-free Valentine's games for adults and families",
+   "Hosting a Valentine's party? These printable games do the work",
+   "Love quiz, emoji pictionary & more Valentine's Day party games",
+   "Valentine's game night: 13 printable games in one download"
+  ],
+  "desc": [
+   "13 printable Valentine's Day party games: bingo with 20 cards, love trivia, would you rather, emoji pictionary, word search and more. Letter and A4, instant download.",
+   "Make Valentine's night fun for couples, friends or family. Just print and play – bingo, trivia, this or that, scavenger hunt and more, with answer keys."
+  ],
+  "kw": "valentines day games, valentines party, valentines bingo, valentines trivia, party games, printable games",
+  "until": null
+ },
+ "gal": {
+  "board": "Galentine's Day Ideas",
+  "link": "https://www.etsy.com/listing/4626736240",
+  "files": [
+   "gal-video-a.mp4",
+   "gal-collage.jpg",
+   "gal-video-b.mp4",
+   "gal-tips.jpg"
+  ],
+  "titles": [
+   "Galentine's Day party games – printable fun for your best girls",
+   "13 Galentine's games: bingo, who knows who, most likely to",
+   "Galentine's party idea: print these games and pour the wine",
+   "Girls night games for Galentine's Day – instant download",
+   "Most likely to, would you rather & more Galentine's party games",
+   "Hosting Galentine's? Printable games bundle for best friends",
+   "Galentine's Day bingo + friendship quiz – print & play",
+   "Best friend games night: 13 printable Galentine's games"
+  ],
+  "desc": [
+   "13 printable Galentine's Day games for girls night: bingo, friendship quiz, most likely to, would you rather, compliment cards and more. Letter and A4, instant download.",
+   "Celebrate your best friends with easy printable party games. Download, print and play – perfect for brunch, a sleepover or girls night in."
+  ],
+  "kw": "galentines day, galentines party, girls night games, galentines games, party games, best friend games",
+  "until": null
+ },
+ "bri": {
+  "board": "Bridal Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626736970",
+  "files": [
+   "bri-video-a.mp4",
+   "bri-collage.jpg",
+   "bri-video-b.mp4",
+   "bri-tips.jpg"
+  ],
+  "titles": [
+   "Bridal shower games bundle – 13 printable games, instant download",
+   "He said she said, bridal bingo & more bridal shower games",
+   "Easy bridal shower idea: download, print and play",
+   "Who knows the bride best? Printable bridal shower quiz + more",
+   "Bridal shower bingo with 20 cards – print at home",
+   "Planning a bridal shower? These printable games are ready to go",
+   "What's in your purse, price is right & more shower games",
+   "Bride to be games: 13 printable bridal shower activities"
+  ],
+  "desc": [
+   "13 printable bridal shower games: bridal bingo (20 cards), he said she said, who knows the bride best, what's in your purse, advice cards and more. Letter and A4.",
+   "Everything you need for bridal shower fun in one download. Print as many copies as you need – answer keys included for the quiz games."
+  ],
+  "kw": "bridal shower games, bridal shower, bridal bingo, he said she said, bride to be, wedding shower games",
+  "until": null
+ },
+ "bac": {
+  "board": "Bachelorette Party Ideas",
+  "link": "https://www.etsy.com/listing/4626729629",
+  "files": [
+   "bac-video-a.mp4",
+   "bac-collage.jpg",
+   "bac-video-b.mp4",
+   "bac-tips.jpg"
+  ],
+  "titles": [
+   "Bachelorette party games – 13 printable games for the last fling",
+   "Dare cards, never have I ever & bride quiz – bachelorette games",
+   "Bachelorette party idea: printable games for a night in or out",
+   "Hen party games bundle – download, print and party",
+   "Bachelorette night out bingo + photo scavenger hunt",
+   "Planning a bachelorette? These printable games keep it fun",
+   "Who knows the bride best? Bachelorette quiz + 12 more games",
+   "Bride to be games night: 13 printable bachelorette games"
+  ],
+  "desc": [
+   "13 fun, clean printable bachelorette games: night out bingo, dare cards, never have I ever, bride quiz, photo scavenger hunt, awards and more. Letter and A4.",
+   "Make the bride's last fling unforgettable with ready-to-print bachelorette party games. Instant download, print as many as you need."
+  ],
+  "kw": "bachelorette games, bachelorette party, hen party games, bride to be, dare cards, bachelorette ideas",
+  "until": null
+ },
+ "fbg": {
+  "board": "Football Party Ideas",
+  "link": "https://www.etsy.com/listing/4626739660",
+  "files": [
+   "fbg-video-a.mp4",
+   "fbg-collage.jpg",
+   "fbg-video-b.mp4",
+   "fbg-tips.jpg"
+  ],
+  "titles": [
+   "Football party games – squares, commercial bingo & trivia",
+   "Game day squares 10x10 + football bingo – printable",
+   "Big game watch party idea: 11 printable football games",
+   "Commercial bingo for your game day party – print & play",
+   "Football trivia, predictions & bingo for non-fans too",
+   "Hosting a watch party? These printable football games help",
+   "Guess the final score + food labels for game day",
+   "Game day games bundle: football party printables"
+  ],
+  "desc": [
+   "11 printable football party games: 10x10 game day squares, football bingo (20 cards), commercial bingo, predictions, trivia, guess the score and food labels.",
+   "Make your watch party fun for fans and non-fans alike. Download, print and play – Letter and A4, answer keys included."
+  ],
+  "kw": "football party, football squares, game day games, commercial bingo, football bingo, watch party",
+  "until": null
+ },
+ "eas": {
+  "board": "Easter Ideas",
+  "link": "https://www.etsy.com/listing/4626748293",
+  "files": [
+   "eas-video-a.mp4",
+   "eas-collage.jpg",
+   "eas-video-b.mp4",
+   "eas-tips.jpg"
+  ],
+  "titles": [
+   "Easter party games for kids & adults – download, print & play",
+   "Easter egg hunt clue cards + 12 more printable Easter games",
+   "Easy Easter party idea: printable game bundle for the whole family",
+   "Easter bingo with 20 cards – instant download",
+   "Easter trivia, pictionary & scavenger hunt – print at home",
+   "Hosting Easter? These printable games keep everyone busy",
+   "Egg hunt riddles kids love + Easter bingo & trivia",
+   "Easter game night: 13 printable games in one download"
+  ],
+  "desc": [
+   "13 printable Easter games for kids, families and adults: egg hunt clue cards, Easter bingo (20 cards), trivia, pictionary, scavenger hunt and more. Letter and A4.",
+   "Make Easter extra fun – just print and play. Egg hunt riddles, bingo, would you rather, word games and a jelly bean guessing game, with answer keys."
+  ],
+  "kw": "easter games, easter egg hunt, easter bingo, easter activities, kids easter, family games",
+  "until": null
+ },
+ "stp": {
+  "board": "St. Patrick's Day Ideas",
+  "link": "https://www.etsy.com/listing/4626758324",
+  "files": [
+   "stp-video-a.mp4",
+   "stp-collage.jpg",
+   "stp-video-b.mp4",
+   "stp-tips.jpg"
+  ],
+  "titles": [
+   "St. Patrick's Day party games – printable fun for everyone",
+   "13 St. Patrick's Day games: bingo, trivia, pictionary & awards",
+   "Lucky party idea: printable St. Patrick's Day games bundle",
+   "St. Patrick's Day bingo with 20 cards – instant download",
+   "Classroom & office St. Patrick's Day games – print and play",
+   "Feeling lucky? Printable St. Paddy's Day party games",
+   "Shamrock scavenger hunt + St. Patrick's trivia printable",
+   "St. Patrick's Day game night: 13 printable games"
+  ],
+  "desc": [
+   "13 printable St. Patrick's Day games: bingo (20 cards), trivia, emoji pictionary, would you rather, scavenger hunt, lucky awards and more. Letter and A4, instant download.",
+   "Easy St. Paddy's Day fun for families, classrooms and offices. Download, print and play – answer keys included."
+  ],
+  "kw": "st patricks day games, st patricks day party, shamrock, st paddys day, classroom games, office party",
+  "until": null
+ },
+ "mom": {
+  "board": "Mother's Day Ideas",
+  "link": "https://www.etsy.com/listing/4626759016",
+  "files": [
+   "mom-video-a.mp4",
+   "mom-collage.jpg",
+   "mom-video-b.mp4",
+   "mom-tips.jpg"
+  ],
+  "titles": [
+   "All About My Mom printable + coupons for Mom – Mother's Day",
+   "Last-minute Mother's Day gift kids can make – printable",
+   "Mother's Day coupon book + mom quiz – instant download",
+   "Mother's Day brunch games: mom trivia, sayings & more",
+   "Who knows Mom best? Printable Mother's Day quiz",
+   "13 Mother's Day games & activities – print at home",
+   "Sweet Mother's Day idea: notes for Mom + coupon book",
+   "Mother's Day activities for kids and families – printable"
+  ],
+  "desc": [
+   "13 printable Mother's Day activities: All About My Mom, a 12-coupon book, who knows Mom best, finish the mom saying, trivia and more. Letter and A4.",
+   "A sweet, easy Mother's Day gift kids can fill in themselves – plus brunch games for the whole family. Instant download."
+  ],
+  "kw": "mothers day, mothers day gift, all about my mom, coupons for mom, mothers day activities, gift from kids",
+  "until": null
+ },
+ "bday": {
+  "board": "Birthday Party Ideas",
+  "link": "https://www.etsy.com/listing/4626759622",
+  "files": [
+   "bday-video-a.mp4",
+   "bday-collage.jpg",
+   "bday-video-b.mp4",
+   "bday-tips.jpg"
+  ],
+  "titles": [
+   "Birthday party games for adults – printable, fun & clean",
+   "Adult birthday bingo + never have I ever – instant download",
+   "30th, 40th or 50th birthday? Printable party games bundle",
+   "Who knows the birthday star? Printable birthday quiz",
+   "14 birthday party games for adults – print and play",
+   "Birthday awards, photo hunt & more party games",
+   "Easy birthday party idea: printable game bundle",
+   "Milestone birthday games everyone will love"
+  ],
+  "desc": [
+   "14 printable birthday party games for adults: bingo (20 cards), birthday star quiz, never have I ever, would you rather, photo scavenger hunt, awards and more.",
+   "Perfect for 21st, 30th, 40th, 50th and every birthday. Download, print and play – Letter and A4."
+  ],
+  "kw": "birthday games, adult birthday party, birthday party ideas, 30th birthday, 40th birthday, 50th birthday",
+  "until": null
+ },
+ "grad": {
+  "board": "Graduation Party Ideas",
+  "link": "https://www.etsy.com/listing/4626750915",
+  "files": [
+   "grad-video-a.mp4",
+   "grad-collage.jpg",
+   "grad-video-b.mp4",
+   "grad-tips.jpg"
+  ],
+  "titles": [
+   "Graduation party games 2027 – printable & instant download",
+   "Class of 2027 grad party games: bingo, advice cards & more",
+   "Advice for the grad cards + predictions – printable",
+   "Easy graduation party idea: 13 printable games",
+   "Graduation bingo with 20 cards – Class of 2027",
+   "Who knows the grad best? Printable grad party quiz",
+   "Grad party activities for high school & college",
+   "Graduation party games everyone can play"
+  ],
+  "desc": [
+   "13 printable graduation party games: bingo (20 cards), advice cards, predictions for the grad, who knows the grad best, trivia, bucket list and more. Letter and A4.",
+   "Celebrate the Class of 2027 – download, print and play. Great for high school and college grad parties."
+  ],
+  "kw": "graduation party, grad party games, class of 2027, graduation ideas, grad party ideas, advice for graduate",
+  "until": null
+ },
+ "grv": {
+  "board": "Gender Reveal Ideas",
+  "link": "https://www.etsy.com/listing/4626784144",
+  "files": [
+   "grv-video-a.mp4",
+   "grv-collage.jpg",
+   "grv-video-b.mp4",
+   "grv-tips.jpg"
+  ],
+  "titles": [
+   "Gender reveal party games – boy or girl? Printable & instant",
+   "Team boy or team girl vote cards + 12 gender reveal games",
+   "Old wives' tales gender prediction game – printable",
+   "Gender reveal party ideas: games guests actually love",
+   "Mom or Dad? Funny gender reveal game + baby bingo",
+   "Baby predictions & wishes for baby – gender reveal printable",
+   "He or she? 13 printable gender reveal games",
+   "Easy gender reveal activities – download and print"
+  ],
+  "desc": [
+   "13 printable gender reveal games: boy or girl vote sign + cards, old wives' tales, baby bingo (20 cards), Mom or Dad, baby trivia, nursery rhymes and more. Letter and A4.",
+   "Make your reveal extra fun – guests vote, play and make predictions. Instant download, answer keys included."
+  ],
+  "kw": "gender reveal, gender reveal games, boy or girl, team boy team girl, baby shower games, gender reveal ideas",
+  "until": null
+ },
+ "gnt": {
+  "board": "Family Game Night Ideas",
+  "link": "https://www.etsy.com/listing/4626787038",
+  "files": [
+   "gnt-video-a.mp4",
+   "gnt-collage.jpg",
+   "gnt-video-b.mp4",
+   "gnt-tips.jpg"
+  ],
+  "titles": [
+   "Family game night printable games – no board game needed",
+   "Charades, Name 5 & categories – printable family games",
+   "Phones down, games on: 14 family game night printables",
+   "Rainy day games for kids and adults – print & play",
+   "Family game night ideas: 120+ printable game cards",
+   "Household challenge cards + trivia for game night",
+   "Easy game night for families – instant download",
+   "Two truths & a lie, would you rather & more – printable"
+  ],
+  "desc": [
+   "14 printable family game night games: charades, Name 5, categories, draw & guess, household challenges, trivia, would you rather and more. Letter and A4.",
+   "Turn any evening into game night – kids, teens and adults can play. Download, print and play, answer keys included."
+  ],
+  "kw": "family game night, game night ideas, family games, kids games, charades, rainy day activities",
+  "until": null
+ },
+ "tgv": {
+  "board": "Thanksgiving Ideas",
+  "link": "https://www.etsy.com/listing/4626775529",
+  "files": [
+   "tgv-video-a.mp4",
+   "tgv-collage.jpg",
+   "tgv-video-b.mp4",
+   "tgv-tips.jpg"
+  ],
+  "titles": [
+   "Thanksgiving games for the whole family – printable",
+   "Thanksgiving table talk cards + bingo & trivia",
+   "Friendsgiving games: 13 printable Thanksgiving activities",
+   "Thankful cards & Thanksgiving bingo – instant download",
+   "Kids' table activities for Thanksgiving – print & play",
+   "No more awkward silence at Thanksgiving dinner – printable games",
+   "Thanksgiving trivia, would you rather & more",
+   "Thanksgiving game night: 13 printable games"
+  ],
+  "desc": [
+   "13 printable Thanksgiving games: bingo (20 cards), trivia, table talk cards, thankful cards, would you rather, draw & guess and more. Letter and A4.",
+   "Bring everyone to the table – easy printable games for family dinner, Friendsgiving and classrooms. Save it for next year!"
+  ],
+  "kw": "thanksgiving games, friendsgiving, thanksgiving activities, table talk, family games, thanksgiving bingo",
+  "until": null
+ },
+ "jul": {
+  "board": "4th of July Ideas",
+  "link": "https://www.etsy.com/listing/4626785572",
+  "files": [
+   "jul-video-a.mp4",
+   "jul-collage.jpg",
+   "jul-video-b.mp4",
+   "jul-tips.jpg"
+  ],
+  "titles": [
+   "4th of July party games – printable fun for your BBQ",
+   "Patriotic party games: bingo, history trivia & awards",
+   "Red, white & blue scavenger hunt + 12 more games",
+   "Family reunion & cookout games for the Fourth",
+   "4th of July bingo with 20 cards – instant download",
+   "Summer party games for kids and adults – printable",
+   "Star-spangled party ideas: 13 printable games",
+   "Easy July 4th activities – download, print & play"
+  ],
+  "desc": [
+   "13 printable 4th of July games: bingo (20 cards), American history trivia, scavenger hunt, would you rather, draw & guess, party awards and more. Letter and A4.",
+   "Make your cookout or family reunion extra fun – save these patriotic games for summer!"
+  ],
+  "kw": "4th of july games, fourth of july, patriotic party, july 4th ideas, bbq games, summer party",
+  "until": null
+ },
+ "hal": {
+  "board": "Halloween Ideas",
+  "link": "https://www.etsy.com/listing/4626777055",
+  "files": [
+   "hal-video-a.mp4",
+   "hal-collage.jpg",
+   "hal-video-b.mp4",
+   "hal-tips.jpg"
+  ],
+  "titles": [
+   "Halloween party games for kids & adults – printable",
+   "Costume awards + Halloween bingo & trivia",
+   "Spooky scavenger hunt + 12 Halloween party games",
+   "Classroom Halloween party games – print and play",
+   "Halloween bingo with 20 cards – instant download",
+   "Halloween game night: 13 printable games",
+   "Easy Halloween party ideas – save for October",
+   "Halloween would you rather, draw & guess & more"
+  ],
+  "desc": [
+   "13 printable Halloween games: bingo (20 cards), trivia, costume awards, spooky scavenger hunt, would you rather, draw & guess and more. Letter and A4.",
+   "Spooky, family-friendly fun for parties and classrooms. Save it for Halloween – instant download."
+  ],
+  "kw": "halloween games, halloween party, halloween bingo, costume contest, kids halloween, classroom party",
+  "until": null
+ }
+}
