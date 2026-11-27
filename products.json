@@ -1088,5 +1088,131 @@
   ],
   "kw": "party games bundle, printable party games, baby shower games, bridal shower games, birthday party games, game night",
   "until": null
+ },
+ "bsb": {
+  "board": "Baby Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626866424",
+  "files": [
+   "bsb-video-v.mp4",
+   "bsb-pin-a.jpg",
+   "bsb-pin-b.jpg"
+  ],
+  "titles": [
+   "Baby shower gift bingo – 50 printable cards, gender neutral",
+   "Baby shower game every guest can play: printable gift bingo",
+   "Gender neutral baby shower bingo – sage green printable",
+   "Printable baby shower bingo cards – color and black & white",
+   "Easy baby shower game idea: gift bingo while mom opens presents",
+   "Baby shower bingo with 50 different cards – print at home"
+  ],
+  "desc": [
+   "50 unique baby shower gift bingo cards: guests mark baby items as the mom-to-be opens gifts. Caller cards included for classic bingo. Letter and A4.",
+   "A simple, gender neutral baby shower game that keeps every guest involved. Instant download – print at home."
+  ],
+  "kw": "baby shower bingo, baby shower games, gift bingo, gender neutral baby shower, printable baby shower games",
+  "until": null
+ },
+ "brb": {
+  "board": "Bridal Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626871142",
+  "files": [
+   "brb-video-v.mp4",
+   "brb-pin-a.jpg",
+   "brb-pin-b.jpg"
+  ],
+  "titles": [
+   "Bridal shower gift bingo – 50 printable cards for guests",
+   "Bridal shower game idea: gift bingo while the bride opens presents",
+   "Printable bridal shower bingo – soft blush design",
+   "Bridal shower bingo cards – color and ink-saving black & white",
+   "Easy bridal shower game every guest can play",
+   "Bride to be bingo – 50 different printable cards"
+  ],
+  "desc": [
+   "50 unique bridal shower gift bingo cards: guests mark gifts as the bride opens them. Caller cards included for classic bingo. Letter and A4.",
+   "An easy bridal shower game that keeps every guest engaged. Instant download – print at home."
+  ],
+  "kw": "bridal shower bingo, bridal shower games, gift bingo, wedding shower games, printable bridal shower",
+  "until": null
+ },
+ "bdb": {
+  "board": "Birthday Party Ideas",
+  "link": "https://www.etsy.com/listing/4626862231",
+  "files": [
+   "bdb-video-v.mp4",
+   "bdb-pin-a.jpg",
+   "bdb-pin-b.jpg"
+  ],
+  "titles": [
+   "Birthday bingo – 50 printable cards for kids and adults",
+   "Easy birthday party game: printable bingo for any age",
+   "Kids birthday party idea: printable birthday bingo",
+   "Birthday party bingo cards – color and black & white",
+   "Classroom birthday celebration game: printable bingo",
+   "Printable birthday bingo with 50 different cards"
+  ],
+  "desc": [
+   "50 unique birthday bingo cards with caller cards and winner certificates – cake, balloons, presents and more. Letter and A4, color and B&W.",
+   "A simple party game for kids' birthdays, classroom celebrations and adult parties. Instant download – print at home."
+  ],
+  "kw": "birthday bingo, birthday party games, kids party games, printable bingo, birthday activity",
+  "until": null
+ },
+ "eab": {
+  "board": "Easter Ideas",
+  "link": "https://www.etsy.com/listing/4626863031",
+  "files": [
+   "eab-video-v.mp4",
+   "eab-pin-a.jpg",
+   "eab-pin-b.jpg"
+  ],
+  "titles": [
+   "Easter bingo – 50 printable cards for kids and family",
+   "Classroom Easter party game: printable bingo",
+   "Easter activity for kids: printable spring bingo",
+   "Easter bingo cards – color and ink-saving black & white",
+   "Family Easter game idea: bingo with 50 different cards",
+   "Printable Easter bingo for church groups and classrooms"
+  ],
+  "desc": [
+   "50 unique Easter bingo cards with caller cards and winner certificates – bunnies, eggs, chicks and tulips. Letter and A4, color and B&W.",
+   "An easy spring game for classroom Easter parties, family gatherings and church groups. Instant download – print at home."
+  ],
+  "kw": "easter bingo, easter games for kids, classroom easter party, easter activities, printable bingo",
+  "until": "2027-03-27"
+ },
+ "bsb-tip": {
+  "board": "Baby Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626866424",
+  "files": [
+   "bsb-howto.jpg"
+  ],
+  "titles": [
+   "How to play baby shower gift bingo – 6 easy tips",
+   "Baby shower gift bingo: how it works",
+   "Keep guests busy during gift opening – baby shower bingo tips"
+  ],
+  "desc": [
+   "How to play baby shower gift bingo: give every guest a card, mark gifts as they are opened, play rounds for row, four corners and blackout, and keep prizes simple."
+  ],
+  "kw": "baby shower games, gift bingo, baby shower ideas, baby shower activities",
+  "until": null
+ },
+ "brb-tip": {
+  "board": "Bridal Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626871142",
+  "files": [
+   "brb-howto.jpg"
+  ],
+  "titles": [
+   "Keep guests busy while the bride opens gifts – 6 tips",
+   "Maid of honor tip: bridal shower gift bingo",
+   "Bridal shower gift opening ideas: play gift bingo"
+  ],
+  "desc": [
+   "Bridal shower tip: hand out gift bingo cards, let guests mark gifts as the bride opens them, play a few rounds and ask a bridesmaid to keep a gift list for thank-you notes."
+  ],
+  "kw": "bridal shower games, gift bingo, maid of honor ideas, bridal shower ideas",
+  "until": null
  }
 }
