@@ -233,27 +233,6 @@
   "kw": "savings challenge, 100 envelope challenge, 52 week challenge, 2027, money challenge",
   "until": null
  },
- "wed": {
-  "board": "Wedding Planning",
-  "link": "https://www.etsy.com/listing/4623260419",
-  "files": [
-   "wed-video.mp4",
-   "wed-collage.jpg",
-   "wed-tips.jpg"
-  ],
-  "titles": [
-   "Wedding budget spreadsheet – budget, guests & checklist in one",
-   "Just engaged? Save this wedding planner for Google Sheets",
-   "Wedding budget breakdown + guest list RSVP tracker",
-   "Plan your wedding without overspending (template)"
-  ],
-  "desc": [
-   "Plan your wedding in one Google Sheets template: budget by category, vendor payments, guest list with RSVPs and a countdown to the big day.",
-   "Wedding budget and planner spreadsheet for newly engaged couples. Keep costs, guests and to-dos organized in one place."
-  ],
-  "kw": "wedding budget, wedding planner, guest list, rsvp tracker, wedding spreadsheet",
-  "until": null
- },
  "read": {
   "board": "Reading Tracker & Book Lists",
   "link": "https://www.etsy.com/listing/4623268839",
@@ -835,6 +814,96 @@
    "Spooky, family-friendly fun for parties and classrooms. Save it for Halloween – instant download."
   ],
   "kw": "halloween games, halloween party, halloween bingo, costume contest, kids halloween, classroom party",
+  "until": null
+ },
+ "baby": {
+  "board": "Baby Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626839282",
+  "files": [
+   "baby-video-v.mp4",
+   "baby-pin-a.jpg",
+   "baby-pin-b.jpg"
+  ],
+  "titles": [
+   "Baby shower + gender reveal games bundle – printable with answer keys",
+   "Hosting a baby shower? Save these printable games for every guest",
+   "Gender reveal party games and baby shower games in one download",
+   "Printable baby party games bundle – print at home in minutes",
+   "Easy baby shower games your guests will actually love",
+   "Baby shower and gender reveal ideas: printable game sets"
+  ],
+  "desc": [
+   "Two complete printable game sets in one download: baby shower games and gender reveal party games, with signs, bingo and answer keys. Letter and A4.",
+   "Fun, easy party games for the mom-to-be and every guest. Instant download, print at home or at a print shop."
+  ],
+  "kw": "baby shower games, gender reveal games, printable baby shower, baby shower ideas, party games printable",
+  "until": null
+ },
+ "xbg": {
+  "board": "Christmas Party Games",
+  "link": "https://www.etsy.com/listing/4626843774",
+  "files": [
+   "xbg-video-v.mp4",
+   "xbg-pin-a.jpg",
+   "xbg-pin-b.jpg"
+  ],
+  "titles": [
+   "50 printable Christmas bingo cards for family, classroom and office",
+   "Christmas bingo game – print at home, color and ink-saving black & white",
+   "Easy Christmas party game for kids and adults: printable bingo",
+   "Christmas bingo for big groups – 50 different cards + caller cards",
+   "Classroom Christmas party idea: printable holiday bingo",
+   "Office holiday party game: Christmas bingo printable"
+  ],
+  "desc": [
+   "50 unique Christmas bingo cards with caller cards, how-to-play page and winner certificates. Color and ink-saving black & white, Letter and A4.",
+   "A simple holiday game for family gatherings, classroom parties and office events. Instant download, print at home."
+  ],
+  "kw": "christmas bingo, christmas party games, holiday bingo, printable bingo cards, classroom christmas party, office party game",
+  "until": "2026-12-23"
+ },
+ "wbun": {
+  "board": "Bridal Shower Ideas",
+  "link": "https://www.etsy.com/listing/4626838448",
+  "files": [
+   "wbun-video-v.mp4",
+   "wbun-pin-a.jpg",
+   "wbun-pin-b.jpg"
+  ],
+  "titles": [
+   "Bridal shower + bachelorette games bundle – printable, ready in minutes",
+   "Planning for the bride? Save these printable bridal party games",
+   "Maid of honor checklist: bridal shower and bachelorette games done",
+   "Printable wedding party games bundle with answer keys",
+   "Bridal shower games and bachelorette games in one download",
+   "Easy bride squad games – print at home for shower and bachelorette"
+  ],
+  "desc": [
+   "Two complete printable game sets in one download: bridal shower games and bachelorette party games, with signs, cards and answer keys. Letter and A4.",
+   "Everything the maid of honor needs for the shower and the bachelorette: quizzes, bingo, scavenger hunts and more. Instant download, print at home."
+  ],
+  "kw": "bridal shower games, bachelorette games, wedding games, printable party games, maid of honor, bride squad",
+  "until": null
+ },
+ "wed": {
+  "board": "Wedding Planning",
+  "link": "https://www.etsy.com/listing/4623260419",
+  "files": [
+   "wed-video.mp4",
+   "wed-collage.jpg",
+   "wed-tips.jpg"
+  ],
+  "titles": [
+   "Just engaged? Save this wedding planner for Google Sheets",
+   "Plan your wedding without overspending (template)",
+   "Wedding budget breakdown + guest list RSVP tracker",
+   "Wedding budget spreadsheet – budget, guests & checklist in one"
+  ],
+  "desc": [
+   "Plan your wedding in one Google Sheets template: budget by category, vendor payments, guest list with RSVPs and a countdown to the big day.",
+   "Wedding budget and planner spreadsheet for newly engaged couples. Keep costs, guests and to-dos organized in one place."
+  ],
+  "kw": "wedding budget, wedding planner, wedding spreadsheet, guest list tracker, google sheets wedding, wedding planning",
   "until": null
  }
 }
