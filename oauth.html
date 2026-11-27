@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MoneyMint – подключение Pinterest API</title>
+<style>body{font-family:-apple-system,Segoe UI,sans-serif;max-width:760px;margin:40px auto;padding:0 18px;color:#222;line-height:1.5}
+input{font-size:16px;padding:8px;width:100%;box-sizing:border-box}button,a.btn{display:inline-block;margin-top:10px;font-size:16px;padding:10px 16px;background:#e60023;color:#fff;border:0;border-radius:8px;text-decoration:none;cursor:pointer}
+pre{background:#f4f4f4;padding:12px;border-radius:8px;white-space:pre-wrap;word-break:break-all}.box{border:1px solid #ddd;border-radius:10px;padding:16px;margin:18px 0}</style></head>
+<body>
+<h2>Подключение Pinterest API к MoneyMint autopost</h2>
+<p>Эта страница ничего никуда не отправляет. Секрет приложения здесь не вводится — только в Терминале на твоём Mac.</p>
+<div class="box" id="step1"><b>Шаг 1.</b> Вставь <b>App ID</b> своего приложения (developers.pinterest.com → My apps):
+<input id="app" placeholder="например 1512345"><button onclick="go()">Разрешить доступ в Pinterest →</button></div>
+<div class="box" id="step2" style="display:none"><b>Шаг 2.</b> Pinterest вернул код. Открой <b>Терминал</b> на Mac, вставь команду ниже, замени <code>ВСТАВЬ_APP_SECRET</code> на секрет приложения и нажми Enter:
+<pre id="cmd"></pre>
+<p>В ответе найди <code>"refresh_token": "..."</code> — скопируй значение (без кавычек) и сохрани его в GitHub: репозиторий moneymint-pins → Settings → Secrets and variables → Actions → New repository secret → имя <code>PINTEREST_REFRESH_TOKEN</code>.</p>
+<p>Код действует несколько минут. Если команда вернула ошибку — начни с шага 1 заново.</p></div>
+<script>
+const REDIRECT = location.origin + location.pathname;
+const SCOPES = 'boards:read,boards:write,pins:read,pins:write,user_accounts:read';
+const app = document.getElementById('app');
+try { app.value = localStorage.getItem('mm_app') || ''; } catch (e) {}
+function go() {
+  const id = app.value.trim(); if (!id) return alert('Вставь App ID');
+  try { localStorage.setItem('mm_app', id); } catch (e) {}
+  location.href = 'https://www.pinterest.com/oauth/?client_id=' + encodeURIComponent(id) + '&redirect_uri=' + encodeURIComponent(REDIRECT) +
+    '&response_type=code&scope=' + encodeURIComponent(SCOPES) + '&state=mm';
+}
+const code = new URLSearchParams(location.search).get('code');
+if (code) {
+  let id = ''; try { id = localStorage.getItem('mm_app') || 'ВСТАВЬ_APP_ID'; } catch (e) {}
+  document.getElementById('step2').style.display = 'block';
+  document.getElementById('cmd').textContent =
+    `curl -s -X POST https://api.pinterest.com/v5/oauth/token -u "${id}:ВСТАВЬ_APP_SECRET" -d grant_type=authorization_code -d code=${code} --data-urlencode redirect_uri=${REDIRECT}`;
+}
+</script></body></html>
