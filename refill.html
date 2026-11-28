@@ -4,6 +4,7 @@
 <script>
 const BASE = "https://amarchenko447-tech.github.io/moneymint-pins/";
 const LIMIT = 100, MARGIN = 2, HORIZON = 14, PER_DAY_MAX = 2;
+const FV_SLOTS = [3, 7]; // 2 pins a day for Fiverr services (fiverr:true products), others go to Etsy products
 const SLOTS = ["12:15","13:45","15:15","16:45","18:15","19:45","21:15","22:45","00:15","01:45"]; // UTC
 const SUF = [""," – save this idea"," | instant download"," (printable & easy)"," – pin it for later"," | Etsy digital download",
   " – simple & stress-free"," – print at home"," | quick setup"," – save for later"," – easy to use"," | download today",
@@ -19,16 +20,19 @@ async function refill(queuedCount, queuedTitles = [], todayISO = null) {
   const today = todayISO ? new Date(todayISO + 'T00:00:00Z') : new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00Z');
   const count = {}; for (const k in P) count[k] = 0;
   for (const l of queuedTitles) for (const k in P) if (P[k].titles.some(t => l.startsWith(t.slice(0, 40)))) { count[k]++; break; }
-  let active = Object.keys(P).filter(k => !P[k].until || new Date(P[k].until + 'T00:00:00Z') > new Date(today.getTime() + 2 * 864e5));
+  let activeAll = Object.keys(P).filter(k => !P[k].until || new Date(P[k].until + 'T00:00:00Z') > new Date(today.getTime() + 2 * 864e5));
+  let active = activeAll.filter(k => !P[k].fiverr), fvActive = activeAll.filter(k => P[k].fiverr);
   const free = LIMIT - queuedCount - MARGIN;
   if (free <= 0) return '';
   const used = {}; for (const k in P) used[k] = 0;
   const nextTitle = k => { for (const s of SUF) for (const t of P[k].titles) { const c = (t + s).slice(0, 100); if (!hist.has(c)) { hist.add(c); return c; } } return null; };
-  const rows = [], dayUse = {}; let dI = 1, sI = 0;
-  while (rows.length < free && active.length) {
-    active.sort((a, b) => (count[a] + used[a]) - (count[b] + used[b]) || a.localeCompare(b));
-    const k = active[0], title = nextTitle(k);
-    if (!title) { active.shift(); continue; }
+  const rows = [], dayUse = {}; let sI = queuedCount, dI = 1 + Math.floor(queuedCount / SLOTS.length); // continue after the pins already queued (~10/day)
+  while (rows.length < free && (active.length || fvActive.length)) {
+    const pool = (FV_SLOTS.includes(sI % SLOTS.length) && fvActive.length) ? fvActive : active;
+    if (!pool.length) break;
+    pool.sort((a, b) => (count[a] + used[a]) - (count[b] + used[b]) || a.localeCompare(b));
+    const k = pool[0], title = nextTitle(k);
+    if (!title) { pool.shift(); continue; }
     let d;
     for (let g = 0; g < HORIZON * SLOTS.length; g++) { d = new Date(today.getTime() + dI * 864e5); if ((dayUse[k + d.toISOString().slice(0, 10)] || 0) < PER_DAY_MAX) break; dI = dI % HORIZON + 1; }
     const slot = SLOTS[sI % SLOTS.length]; let dt = new Date(d.toISOString().slice(0, 10) + 'T' + slot + ':00Z');
